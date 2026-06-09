@@ -1,5 +1,3 @@
-# PLAN.md
-
 ## What we are building
 <!-- One paragraph: what, who uses it, what problem it solves -->
 
