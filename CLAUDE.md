@@ -1,60 +1,44 @@
-# <Project Name>
-
 ## What this is
-<!-- One paragraph: what it does, who uses it, what problem it solves -->
+<!-- One line: what the project does -->
 
-## Stack
-- Language:
-- Framework:
-- Database:
-- LLM provider:
-- Package manager:
-- Test runner:
-- Other:
+## Read first
+See PLAN.md for full technical spec, architecture, and implementation order.
+Start every session by reading PLAN.md, then this file.
 
-## Project structure
-<!-- Fill in after scaffold is created -->
+## Navigation
+
+    <!-- Fill in after scaffold. Format:
+    folder/
+      file.py     — what it owns (one line)
+      file.py     — what it owns
+    -->
 
 ## How to run
-```bash
-# fill in
-```
+
+    # install
+    # start
+    # test
 
 ## Env vars
-<!-- Name — purpose, one per line -->
+    <!-- VAR_NAME   — purpose, one per line -->
 
 ## Code conventions
-<!-- Fill in. Example entries shown, replace with real ones:
-- Functions do one thing
-- All LLM calls go through one module
-- No business logic in route handlers
-- Type hints on every function signature
--->
+    <!-- Fill in. Examples:
+    - All LLM calls go through lib/llm_client.py only
+    - No business logic in routers — routers call lib/ only
+    - Type hints on every function signature
+    - All external service clients are singletons
+    -->
 
 ## What NOT to do
-<!-- Fill in. Things discovered through mistakes, bad patterns to avoid -->
-
-## Test strategy
-<!-- Unit / integration / e2e split, how to run -->
-
-## How to update this file
-After completing any of the following, update the relevant section:
-- New file or module created → update Project structure
-- New env var added → update Env vars
-- Package installed → update Stack
-- Convention decided → update Code conventions
-- Bug pattern found → update What NOT to do
-- Task completed → update Current focus
+    <!-- Fill in as bugs and mistakes are discovered -->
 
 ## Current focus
 Last updated: <!-- date -->
 Active work: <!-- what is being built right now -->
 
 Recent completions:
-- <!-- feature — status -->
+- <!-- task — status -->
 
 Open questions / blockers:
 - <!-- anything blocking progress -->
-
-## Architecture decisions log
-<!-- Append only. Never delete. Format: date: decision — reason -->
